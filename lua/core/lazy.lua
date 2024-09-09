@@ -23,10 +23,16 @@ vim.g.maplocalleader = "\\"
 
 -- Setup lazy.nvim
 require("lazy").setup({
-	{ 'phaazon/hop.nvim' },
-	{ 'nvim-treesitter/nvim-treesitter' },
-	{ 'neovim/nvim-lspconfig' },
-	{ 'joshdick/onedark.vim' },
+  { 'phaazon/hop.nvim' },
+  { 'nvim-treesitter/nvim-treesitter' },
+  { 'neovim/nvim-lspconfig' },
+  { 'joshdick/onedark.vim' },
+  { 'hrsh7th/cmp-nvim-lsp' }, { 'hrsh7th/cmp-buffer' }, { 'hrsh7th/cmp-path' },
+  { 'hrsh7th/cmp-cmdline' }, { 'hrsh7th/nvim-cmp' }, { 'lewis6991/gitsigns.nvim' },
+  { 'williamboman/mason.nvim' },
+  { 'nvimtools/none-ls.nvim' },
+  { 'nvimtools/none-ls-extras.nvim' },
+
 
 	{
 		"nvim-neo-tree/neo-tree.nvim",
@@ -39,6 +45,9 @@ require("lazy").setup({
     		}
 
 	},
+    {
+        'nvim-telescope/telescope.nvim', tag = '0.1.8', branch = '0.1.x',
+    },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
   install = { colorscheme = { "habamax" } },
