@@ -32,7 +32,12 @@ require("lazy").setup({
   { 'williamboman/mason.nvim' },
   { 'nvimtools/none-ls.nvim' },
   { 'nvimtools/none-ls-extras.nvim' },
-
+  
+  { 
+    'akinsho/bufferline.nvim',
+    version = "*",
+    dependencies = { 'nvim-tree/nvim-web-devicons' } 
+  },
 
 	{
 		"nvim-neo-tree/neo-tree.nvim",
