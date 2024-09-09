@@ -33,6 +33,7 @@ require("lazy").setup({
   { 'nvimtools/none-ls.nvim' },
   { 'nvimtools/none-ls-extras.nvim' },
   { 'rebelot/kanagawa.nvim' },
+  { 'akinsho/toggleterm.nvim', version = "*", config = true },
 
   {
     'nvimdev/dashboard-nvim',
