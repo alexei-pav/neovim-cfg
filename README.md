@@ -1,2 +1,2 @@
 # neovim-cfg
-Config for Neovim
+Config for Neovim (lua)
