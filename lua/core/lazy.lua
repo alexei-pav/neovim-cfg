@@ -32,7 +32,14 @@ require("lazy").setup({
   { 'williamboman/mason.nvim' },
   { 'nvimtools/none-ls.nvim' },
   { 'nvimtools/none-ls-extras.nvim' },
-  
+  { 'rebelot/kanagawa.nvim' },
+
+  {
+    'nvimdev/dashboard-nvim',
+    event = 'VimEnter',
+    dependencies = { {'nvim-tree/nvim-web-devicons'}}
+  },
+
   { 
     'akinsho/bufferline.nvim',
     version = "*",
