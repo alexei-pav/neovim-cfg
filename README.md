@@ -6,5 +6,7 @@ Config for Neovim (lua)
 Leader = Space
 
 ### Normal mode
-Ctrl+Q => Exit
-Leader+W => Save file
+| Shortcut | Action |
+| -------- | ------- |
+| Ctrl+Q  | Exit    |
+| Leader+W | Save file |
