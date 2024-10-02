@@ -1,4 +1,11 @@
 # neovim-cfg
+<div align="center">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showRussian()">Русский</button>
+</div>
+
+<div id="english">
+
 Config for Neovim (lua)
 
 ## Required:
@@ -24,3 +31,17 @@ Leader = Space
 | -------- | ------- |
 | Ctrl+Q  | Exit    |
 | Leader+W | Save file |
+</div>
+<div id="russian" style="display:none;">
+</dev>
+<script>
+function showEnglish() {
+  document.getElementById('english').style.display = 'block';
+  document.getElementById('russian').style.display = 'none';
+}
+
+function showRussian() {
+  document.getElementById('english').style.display = 'none';
+  document.getElementById('russian').style.display = 'block';
+}
+</script>
