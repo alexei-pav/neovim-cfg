@@ -1,4 +1,5 @@
 # neovim-cfg
+
 <div align="center">
   <button onclick="showEnglish()">English</button>
   <button onclick="showRussian()">Русский</button>
@@ -32,7 +33,9 @@ Leader = Space
 | Ctrl+Q  | Exit    |
 | Leader+W | Save file |
 </div>
+
 <div id="russian" style="display:none;">
+  <s1>NaN</s1>
 </dev>
 <script>
 function showEnglish() {
