@@ -11,9 +11,12 @@ Enter this:
 ```sh
 mkdir -p ~/.config/nvim && git clone https://github.com/alexei-pav/neovim-cfg.git ~/.config/nvim
 ```
+## Update:
+```sh
+cd ~/.config/nvim && git pull
+```
 
 ## Shortcuts:
-
 Leader = Space
 
 ### Normal mode
