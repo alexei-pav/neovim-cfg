@@ -1,11 +1,10 @@
 # neovim-cfg
 
-<div align="center">
-  <button onclick="showEnglish()">English</button>
-  <button onclick="showRussian()">Русский</button>
-</div>
+[English](#english) | [Русский](#русский)
 
-<div id="english">
+---
+
+# <a id="english"></a>English
 
 Config for Neovim (lua)
 
@@ -32,19 +31,15 @@ Leader = Space
 | -------- | ------- |
 | Ctrl+Q  | Exit    |
 | Leader+W | Save file |
-</div>
 
-<div id="russian" style="display:none;">
-  <s1>NaN</s1>
-</dev>
-<script>
-function showEnglish() {
-  document.getElementById('english').style.display = 'block';
-  document.getElementById('russian').style.display = 'none';
-}
+[Switch to Russian](#русский)
 
-function showRussian() {
-  document.getElementById('english').style.display = 'none';
-  document.getElementById('russian').style.display = 'block';
-}
-</script>
+---
+
+# <a id="русский"></a>Русский
+
+### Как использовать
+1. Нажмите на предпочтительный язык.
+2. Прочтите документацию на выбранном языке.
+
+[Переключиться на английский](#english)
