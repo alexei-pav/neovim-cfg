@@ -12,6 +12,7 @@ Config for Neovim (lua)
   - Lua
   - Neovim >= 0.8.0 (0.9.5 or higher recommended)
   - git (optional)
+  - Nerd font (optional)
 
 ## Installation
 Enter this:
@@ -31,8 +32,6 @@ Leader = Space
 | -------- | ------- |
 | Ctrl+Q  | Exit    |
 | Leader+W | Save file |
-
-[Switch to Russian](#русский)
 
 ---
 
