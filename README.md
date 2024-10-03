@@ -19,6 +19,7 @@ Enter this:
 ```sh
 mkdir -p ~/.config/nvim && git clone https://github.com/alexei-pav/neovim-cfg.git ~/.config/nvim
 ```
+
 ## Update:
 ```sh
 cd ~/.config/nvim && git pull
@@ -37,6 +38,31 @@ Leader = Space
 
 # <a id="русский"></a>Русский
 
-### Скоро будет (возможно)
+## Требования:
+  - Lua
+  - Neovim >= 0.8.0 (рекомендуется версия 0.9.5 или выше)
+  - git (необязательно)
+  - Nerd font (необязательно)
+
+## Установка:
+Введите:
+```sh
+mkdir -p ~/.config/nvim && git clone https://github.com/alexei-pav/neovim-cfg.git ~/.config/nvim
+```
+
+## Обновление:
+```sh
+cd ~/.config/nvim && git pull
+```
+
+## Cочетания клавиш:
+Leader = Пробел
+
+### Normal mode
+| Cочетание | Действие |
+| -------- | ------- |
+| Ctrl+Q  | Выйти    |
+| Leader+W | Сохранить файл |
+
 
 [Переключиться на английский](#english)
