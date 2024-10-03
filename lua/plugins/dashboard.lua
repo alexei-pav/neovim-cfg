@@ -1,3 +1,9 @@
+return {
+
+'nvimdev/dashboard-nvim',
+  event = 'VimEnter',
+  config = function()
+
 local function default_header()
     return {
         '', '', '',
@@ -56,4 +62,9 @@ require('dashboard').setup {
 
         }
     }
+}
+
+end,
+dependencies = { {'nvim-tree/nvim-web-devicons'}}
+
 }
