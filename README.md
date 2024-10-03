@@ -8,7 +8,7 @@
 
 Config for Neovim (lua)
 
-## Required:
+## Requirements:
   - Lua
   - Neovim >= 0.8.0 (0.9.5 or higher recommended)
   - git (optional)
