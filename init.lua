@@ -3,7 +3,7 @@
 require("core.lazy")          -- Packet manager
 require("core.mappings")      -- Shortcuts
 require("core.configs")
-require("core.colors")        -- Color
+--require("core.colors")        -- Color
 
 -- Plugins
 
