@@ -1,17 +1,19 @@
---Basic
-require("core.lazy")
-require("core.mappings")
-require("core.configs")
-require("core.colors")
+-- Basic
 
---Plugins
-require('plugins.neotree')
-require('plugins.treesitter')
-require('plugins.lsp')
-require("plugins.cmp")
-require("plugins.mason")
-require("plugins.telescope")
-require("plugins.none-ls")
-require("plugins.bufferline")
-require("plugins.dashboard")
-require("plugins.toggleterm")
+require("core.lazy")          -- Packet manager
+require("core.mappings")      -- Shortcuts
+require("core.configs")
+require("core.colors")        -- Color
+
+-- Plugins
+
+require('plugins.neotree')	    -- View files
+--require('plugins.treesitter')	-- Highlights
+--require('plugins.lsp')
+--require("plugins.cmp")
+--require("plugins.mason")	
+--require("plugins.telescope")	-- Look for files and text
+--require("plugins.none-ls")
+--require("plugins.bufferline")	-- Tabs
+require("plugins.dashboard")	  -- Dashboard
+--require("plugins.toggleterm")	-- Terminal emulator

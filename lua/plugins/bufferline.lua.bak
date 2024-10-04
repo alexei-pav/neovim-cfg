@@ -1,5 +1,9 @@
-local bufferline = require('bufferline')
-    bufferline.setup {
+return {
+	'akinsho/bufferline.nvim',
+	 version = "*",
+	 dependencies = 'nvim-tree/nvim-web-devicons',
+
+require('bufferline').setup {
         options = {
             mode = "buffers", -- set to "tabs" to only show tabpages instead
             style_preset = bufferline.style_preset.default, -- or bufferline.style_preset.minimal,
@@ -99,4 +103,4 @@ local bufferline = require('bufferline')
             sort_by = 'directory'
         }
     }
-
+}
