@@ -1,10 +1,9 @@
 return {
-
-'nvimdev/dashboard-nvim',
+  'nvimdev/dashboard-nvim',
   event = 'VimEnter',
   config = function()
-
-local function default_header()
+  
+  local function default_header()
     return {
         '', '', '',
         '██╗  ██╗███████╗  ██╗  ██╗ ██╗██████╗██   ██╗',
@@ -15,9 +14,9 @@ local function default_header()
         '╚═╝  ╚═╝╚══════╝  ╚═╝    ╚═╝  ╚═════╝╚═╝  ╚═╝',
         '', '', ''
     }
-end
+  end
 
-require('dashboard').setup {
+  require('dashboard').setup {
     theme = 'doom',
     config = {
         header = default_header(),
@@ -62,9 +61,7 @@ require('dashboard').setup {
 
         }
     }
-}
-
-end,
-dependencies = { {'nvim-tree/nvim-web-devicons'}}
-
+  }
+  end,
+  dependencies = { {'nvim-tree/nvim-web-devicons'}}
 }
