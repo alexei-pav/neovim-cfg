@@ -74,7 +74,7 @@ return {
         move_wraps_at_ends = false, -- whether or not the move command "wraps" at the first or last position
         -- can also be a table containing 2 custom separators
         -- [focused and unfocused]. eg: { '|', '|' }
-        separator_style = 'none', --'slope', 'padded_slant'
+        separator_style = 'none', --'slope', 'padded_slant', 'none'
         enforce_regular_tabs = false,
         always_show_bufferline = true,
         auto_toggle_bufferline = true,
