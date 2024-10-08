@@ -1,5 +1,6 @@
 return {
   'nvimdev/dashboard-nvim',
+  version = false,
   event = 'VimEnter',
   config = function()
   

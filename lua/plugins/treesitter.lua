@@ -2,6 +2,7 @@
 
 return {
   "nvim-treesitter/nvim-treesitter",
+  version = false,
 
   config = function()
     require'nvim-treesitter.configs'.setup {
